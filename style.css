@@ -1,0 +1,92 @@
+body{
+padding:0;
+margin:0;
+width:100%;
+
+}
+.card-box{position: relative;
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+}
+.imgbox{
+    position: relative;
+    width: 48%;
+    top:10%;
+}
+.card-img{
+    position: relative;
+    width: 100%;
+    
+}
+
+.card{
+    position: relative;
+    display: flex;
+    width: 30%;
+    background-color: black;
+    padding: 20px 20px 20px 20px;
+    margin: 1px 1px;
+    
+}
+.card-content{
+    font-size: 12px; 
+    margin:12px 25px;
+    width: 65%;
+}
+
+.card-header{color:aliceblue;
+
+}    
+
+.card .h4{color:aliceblue;
+
+}
+
+.card-text{
+    color: aliceblue;
+}
+
+.last-part{
+    color: aliceblue;
+}
+
+.red-part{
+    color:rgb(175, 54, 54);
+}
+.start-part{
+    color:aliceblue;
+}
+
+.heading{
+    margin-top: -2px;
+}
+
+@media (max-width:768px) {
+    .card{
+        align-items: center;
+        width: 100%;
+        flex-direction: column;
+        margin: 0px;
+        border-bottom: 1.5px solid white;
+    } 
+    .imgbox{
+        position: relative;
+        width: 60%;
+        margin-bottom: 2rem;
+    }
+    .card-img{
+        position: relative;
+        width: 100%;
+    }
+    .card-content{
+        font-size: 20px;
+        margin:0 15px;
+        text-align: center;
+    }
+
+    .heading{
+        margin-top: 5px;
+    }
+    }
+   
